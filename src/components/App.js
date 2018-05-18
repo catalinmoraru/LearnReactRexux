@@ -6,6 +6,7 @@
 // import HomePage from "./HomePage";
 // import NotFoundPage from "./NotFoundPage";
 import React,{PropTypes} from "react";
+import Header from "./common/Header";
 // import PropTypes from "prop-types";
 // import { hot } from "react-hot-loader";
 
@@ -45,7 +46,7 @@ class App extends React.Component{
       //<div><p>Frackj react</p></div>
     <div className="container-fluid">
       <h1>App component</h1>
-      <p>Header here ....</p>
+      <Header/>
       {this.props.children}
       </div>
     );
