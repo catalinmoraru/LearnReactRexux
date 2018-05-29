@@ -45,7 +45,7 @@ class App extends React.Component{
     return (
       //<div><p>Frackj react</p></div>
     <div className="container-fluid">
-      <h1>App component</h1>
+      <h3>Catalin Computers</h3>
       <Header/>
       {this.props.children}
       </div>
